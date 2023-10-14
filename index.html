@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Custom Audio / Music Player HTML &amp; CSS &amp; JS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- (B) AUDIO PLAYERS -->
+
+<div class="aWrap" data-src="https://audio.jukehost.co.uk/wG9DbqMzDZ0FJ6EttPhDCUg0WQdwQQXl"><h3 style="color:#FFFAF0;">نسيم الأرز</h3>
+
+  <button class="aPlay" disabled><span class="aPlayIco"><i class="fa fa-play"></i></span></button>
+  <div class="range">
+    <span class="under-ranger"></span>
+    <input class="aSeek" type="range" min="0" value="0" step="1" disabled><span class="change-range"></span>
+  </div>
+  <div class="aCron">
+    <span class="aNow"></span> / <span class="aTime"></span>
+  </div>
+  <div class="volume-container">
+    <span class="aVolIco"><i class="fa fa-volume-up"></i></span>
+    <div class="range-volume">
+      <span class="under-ranger"></span>
+      <input class="aVolume" type="range" min="0" max="1" value="1" step="0.1" disabled><span class="change-range"></span>
+    </div>
+  </div>
+</div>
+
+<div class="aWrap" data-src="https://audio.jukehost.co.uk/1LZQpsbSzFH2P6IL9F2VlqDMpIxrQ0GD"><h3 style="color:#FFFAF0;">صوت الأجيال</h3>
+  <button class="aPlay" disabled><span class="aPlayIco"><i class="fa fa-play"></i></span></button>
+  <div class="range">
+    <span class="under-ranger"></span>
+    <input class="aSeek" type="range" min="0" value="0" step="1" disabled><span class="change-range"></span>
+  </div>
+  <div class="aCron">
+    <span class="aNow"></span> / <span class="aTime"></span>
+  </div>
+  <div class="volume-container">
+    <span class="aVolIco"><i class="fa fa-volume-up"></i></span>
+    <div class="range-volume">
+      <span class="under-ranger"></span>
+      <input class="aVolume" type="range" min="0" max="1" value="1" step="0.1" disabled><span class="change-range"></span>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
